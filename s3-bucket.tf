@@ -1,5 +1,5 @@
 module "s3-bucket" {
-  source  = "app.terraform.io/Terra-workshop/s3-bucket/aws"
+  source  = "https://github.com/Alex-Boza/terraform-aws-s3-bucket"
   version = "2.2.0"
   # insert required variables here
   bucket_prefix = "prefix"
